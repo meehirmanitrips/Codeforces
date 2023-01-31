@@ -8,6 +8,9 @@ using namespace std;
 #define vvl vector<vector<long long>>
 #define mod 1000000007
 
+/* Here the logic is to sort the first array and then just calculate
+the upper bound to find the no of elements less than the current element */
+
 int main()
 {
     int n, m;
